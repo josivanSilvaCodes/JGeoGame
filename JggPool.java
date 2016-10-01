@@ -92,8 +92,7 @@ public class JggPool extends JFrame {
 			int numero2 = gerador.nextInt(500);
 			balls[i] = new Ball(numero-(Ball.radius), numero2-(Ball.radius), new Color(255,215,0), this);
 		}
-		
-		
+
 		holes[0] = new Hole(-5, -5, 30, new Color(0, 0, 0));
 		holes[1] = new Hole(windowWidth-(25), -5, 30, new Color(0, 0, 0));
 		
@@ -101,9 +100,7 @@ public class JggPool extends JFrame {
 		holes[3] = new Hole(windowWidth-(25), (windowWidth/2)+30, 30, new Color(0, 0, 0));
 		
 		holes[4] = new Hole(-5, (windowHeight)-25, 30, new Color(0, 0, 0));
-		holes[5] = new Hole(windowWidth-(25), (windowHeight)-25, 30, new Color(0, 0, 0));
-		
-		
+		holes[5] = new Hole(windowWidth-(25), (windowHeight)-25, 30, new Color(0, 0, 0));		
 	}
  
 	public void play() {
@@ -115,7 +112,7 @@ public class JggPool extends JFrame {
 			try {
 				Thread.sleep(1000/FPS);
 			} catch (Exception e) {
-				System.out.println("Thread interrompida!");
+				System.out.println("Thread Exception...");
 			}
 		}
 	}
@@ -130,3 +127,4 @@ public class JggPool extends JFrame {
    
 
    
+
