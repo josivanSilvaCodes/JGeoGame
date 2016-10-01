@@ -6,6 +6,7 @@
  *  Execution:    java JggPool 
  *  Dependencies: KeyInput.java MouseInput.java Ball.java Hole.java Sound.java
  *  
+ *  Controlls: SPACE, UP, DOWN, LEFT and RIGHT Keys.
  *  2016
  *=====================================================================================*/
 
